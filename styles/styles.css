@@ -1,0 +1,98 @@
+:root {
+  --main-font: stolzl, sans-serif;
+}
+
+:root {
+  --main-color: #e2fffd;
+}
+
+:root {
+  --background-color: #fff9f2;
+}
+
+:root {
+  --third-color: #dddddd;
+}
+
+h2 {
+  font-family: var(--main-font);
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+img {
+  margin: 0;
+  width: 50%;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  padding: 40px 20px;
+}
+
+p {
+  font-size: 20px;
+  font-family: var(--main-font);
+}
+
+ul {
+  list-style: none;
+  font-family: var(--main-font);
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 20px;
+}
+
+.homeText {
+  padding: 60px 30px;
+  margin: 20px 20px;
+  text-align: left;
+  width: 650px;
+  height: 500px;
+}
+
+.hero {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/192/original/Stormy_day_at_greystones_cove.jpg?1617281927");
+  height: 697px;
+  text-align: center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.hero-text {
+  padding: 10px 10px;
+  height: 300px;
+  width: 800px;
+  text-align: center;
+  background-color: rgba(229, 243, 230, 0.5);
+  position: absolute;
+  top: 25%;
+  left: 28%;
+}
+
+.curvedPrimary svg {
+  display: block;
+  background-color: var(--main-color);
+}
+
+.curvedPrimary {
+  background-color: var(--main-color);
+}
+
+.greyButton {
+  color: black;
+  background-color: var(--third-color) !important;
+  padding: 20px 15px;
+  font-family: var(--main-font);
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0;
+  border: none;
+}
+
+.greyButton:hover {
+  background-color: #fff !important;
+  color: black;
+}
