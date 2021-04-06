@@ -51,6 +51,10 @@ ul {
   width: 650px;
   height: 500px;
 }
+.homeText h2 {
+  text-align: center;
+  padding: 20px 0px;
+}
 
 .hero {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/192/original/Stormy_day_at_greystones_cove.jpg?1617281927");
@@ -81,6 +85,14 @@ ul {
   background-color: var(--main-color);
 }
 
+.curvedGreen svg {
+  display: block;
+  background-color: var(--background-color);
+}
+.curvedGreen {
+  background-color: var(--background-color);
+}
+
 .greyButton {
   color: black;
   background-color: var(--third-color) !important;
@@ -95,4 +107,14 @@ ul {
 .greyButton:hover {
   background-color: #fff !important;
   color: black;
+}
+
+.benchImage {
+  width: 648px;
+  height: 500px;
+}
+
+.homeImage {
+  height: 648px;
+  width: 500px;
 }
