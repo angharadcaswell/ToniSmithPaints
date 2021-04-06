@@ -44,16 +44,50 @@ ul {
   font-size: 20px;
 }
 
-.homeText {
-  padding: 60px 30px;
-  margin: 20px 20px;
-  text-align: left;
-  width: 650px;
-  height: 500px;
+path {
+  height: 10px !important;
+  width: 2808px !important;
 }
-.homeText h2 {
+
+header {
+  background-color: var(--main-color);
+}
+nav {
+  color: black;
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 40px;
+  margin-left: 10px !important;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li :hover {
+  color: var(--third-color);
+}
+nav li.active a {
+  font-weight: 800 !important;
+  text-decoration: underline;
+}
+
+.homeText {
+  padding: 60px 60px;
+  margin: 0px;
   text-align: center;
-  padding: 20px 0px;
+  width: 700px;
+  height: 500px;
 }
 
 .hero {
@@ -63,17 +97,33 @@ ul {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
+  padding: 230px 100px;
+  margin: 30px;
 }
 
 .hero-text {
   padding: 10px 10px;
-  height: 300px;
-  width: 800px;
   text-align: center;
   background-color: rgba(229, 243, 230, 0.5);
-  position: absolute;
-  top: 25%;
-  left: 28%;
+  font-size: 40px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+}
+
+.hero-text h2 {
+  padding: 10px;
+}
+
+.logo {
+  width: 400px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0 0 0;
+  box-shadow: none !important;
 }
 
 .curvedPrimary svg {
@@ -109,12 +159,7 @@ ul {
   color: black;
 }
 
-.benchImage {
+.homeImage {
   width: 648px;
   height: 500px;
-}
-
-.homeImage {
-  height: 648px;
-  width: 500px;
 }
