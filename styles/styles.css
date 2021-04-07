@@ -17,6 +17,9 @@
 h2 {
   font-family: var(--main-font);
 }
+h1 {
+  text-align: center;
+}
 
 body {
   background-color: var(--background-color);
@@ -178,7 +181,7 @@ footer {
 
 .aboutText,
 .contactText {
-  padding: 20px 80px;
+  padding: 20px 90px;
 }
 
 .social-links a {
@@ -194,7 +197,56 @@ footer {
   background: black;
 }
 
-.contact-image {
+.about-image {
   width: 445px;
   height: 445px;
+}
+
+.contact-image img {
+  width: 648px !important;
+  height: 555px !important;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 250px;
+}
+
+.colToday a,
+.colOther a,
+.colWas a,
+.colTime a {
+  margin: 10px;
+  padding: 50px;
+  background-repeat: no-repeat !important;
+  display: block;
+  width: 380px;
+  height: 277px;
+  color: white !important;
+  font-size: 40px !important;
+  text-decoration: none;
+  text-align: center;
+}
+
+.colOther a {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/685/original/Making_Memories_Godrevy_Cornwall_1.png?1617810648");
+}
+.colToday a {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/686/original/Waves_with_attitude_1.png?1617810715");
+}
+
+.colWas a {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/687/original/Greystones_Docks_Where_we_learned_to_swim_1.png?1617811077");
+}
+
+.colTime a {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/688/original/Walking_the_walk_Bray_to_Greystones_cliff_walk_1.png?1617811262");
 }
