@@ -16,9 +16,14 @@
 
 h2 {
   font-family: var(--main-font);
+  text-align: center;
+  font-family: Basil;
+  font-style: italic;
 }
 h1 {
   text-align: center;
+  font-family: Basil;
+  font-style: italic;
 }
 
 body {
@@ -225,28 +230,60 @@ footer {
 .colWas a,
 .colTime a {
   margin: 10px;
-  padding: 50px;
+  padding: 80px 20px;
   background-repeat: no-repeat !important;
   display: block;
-  width: 380px;
-  height: 277px;
+  width: 350px;
+  height: 250px;
   color: white !important;
-  font-size: 40px !important;
+  font-size: 35px !important;
+  font-weight: bold;
   text-decoration: none;
   text-align: center;
+  font-family: Basil;
+  font-style: italic;
 }
 
 .colOther a {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/685/original/Making_Memories_Godrevy_Cornwall_1.png?1617810648");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/738/original/Making_Memories_Godrevy_Cornwall_2.png?1617882613");
 }
 .colToday a {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/686/original/Waves_with_attitude_1.png?1617810715");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/741/original/This_is_us_Greystones_Cove_1.png?1617885379");
 }
 
 .colWas a {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/687/original/Greystones_Docks_Where_we_learned_to_swim_1.png?1617811077");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/735/original/Greystones_Docks_Where_we_learned_to_swim_2.png?1617882397");
 }
 
 .colTime a {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/688/original/Walking_the_walk_Bray_to_Greystones_cliff_walk_1.png?1617811262");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/736/original/Walking_the_walk_Bray_to_Greystones_cliff_walk_2.png?1617882481");
+}
+
+.collections {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/750/original/wave_%2813%29_1.png?1617887542");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  padding: 50px 0px 0px 0px;
+}
+
+.aboutme {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/744/original/wave_%287%29_%281%29_2.png?1617886129");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* .aboutme {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/745/original/wave_%2811%29_1.png?1617886828");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+} */
+
+.contactme {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/747/original/wave_%287%29_%281%29_3.png?1617887060");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
 }
