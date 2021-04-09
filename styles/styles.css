@@ -24,6 +24,7 @@ h1 {
   text-align: center;
   font-family: Basil;
   font-style: italic;
+  font-size: 50px;
 }
 
 body {
@@ -286,4 +287,34 @@ footer {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
+}
+
+.photo-text {
+  padding: 50px 60px;
+  background: var(--third-color);
+  height: 420px;
+}
+/* .container {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+} */
+
+/* .container img {
+  padding: 0px;
+} */
+
+.portrait-img img {
+  width: 500px !important;
+  height: 722px !important;
+}
+/* .card {
+  background: grey;
+} */
+
+.col-row {
+  margin-top: 20px;
+}
+
+.card-img-top {
+  padding: 10px;
 }
