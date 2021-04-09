@@ -142,6 +142,10 @@ footer {
   box-shadow: none !important;
 }
 
+.logo-small {
+  width: auto;
+}
+
 .curvedPrimary svg {
   display: block;
   background-color: var(--main-color);
@@ -274,6 +278,26 @@ footer {
   background-size: cover !important;
   background-position: center !important;
 }
+.bottom {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/744/original/wave_%287%29_%281%29_2.png?1617886129");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 500px;
+}
+
+.title-background {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/833/original/wave_%2815%29.png?1617975304");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 500px;
+}
+
+.title-background h1 {
+  padding: 100px;
+  font-size: 80px;
+}
 
 /* .aboutme {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/745/original/wave_%2811%29_1.png?1617886828");
@@ -315,6 +339,52 @@ footer {
   margin-top: 20px;
 }
 
-.card-img-top {
+.card-img-top img {
   padding: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  li {
+    font-size: 10px;
+  }
+
+  .hero {
+    height: 556px;
+    background: none;
+    background-color: var(--main-color);
+    padding: 20px 5px;
+    align-items: center;
+  }
+
+  .hero-text {
+    background-color: transparent;
+  }
+
+  .greyButton {
+    padding: 10px 5px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  nav li {
+    font-size: 10px;
+    text-align: center;
+    margin: 2px !important;
+  }
 }
