@@ -29,18 +29,15 @@ h1 {
 
 body {
   background-color: var(--background-color);
-  min-height: 100vh;
+  margin: auto;
 }
 
 img {
-  margin: 0;
-  width: 50%;
-  margin-left: auto;
+  padding: 20px 20px;
+  width: 80%;
+  height: auto;
   display: block;
-  margin-right: auto;
-  padding: 40px 20px;
-  width: 648px;
-  height: 500px;
+  margin: auto;
 }
 
 p {
@@ -180,11 +177,6 @@ footer {
   color: #fff;
 }
 
-.homeImage {
-  width: 648px;
-  height: 500px;
-}
-
 .aboutText p,
 .aboutText ul {
   font-size: 15px;
@@ -206,16 +198,6 @@ footer {
 .social-links a:hover {
   color: white;
   background: black;
-}
-
-.about-image {
-  width: 445px;
-  height: 445px;
-}
-
-.contact-image img {
-  width: 648px !important;
-  height: 555px !important;
 }
 
 .middle {
@@ -300,13 +282,6 @@ footer {
   font-size: 80px;
 }
 
-/* .aboutme {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/745/original/wave_%2811%29_1.png?1617886828");
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  background-position: center !important;
-} */
-
 .contactme {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/747/original/wave_%287%29_%281%29_3.png?1617887060");
   background-repeat: no-repeat !important;
@@ -319,22 +294,6 @@ footer {
   background: var(--third-color);
   height: 420px;
 }
-/* .container {
-  margin-right: 0px !important;
-  margin-left: 0px !important;
-} */
-
-/* .container img {
-  padding: 0px;
-} */
-
-.portrait-img img {
-  width: 500px !important;
-  height: 722px !important;
-}
-/* .card {
-  background: grey;
-} */
 
 .col-row {
   margin-top: 20px;
