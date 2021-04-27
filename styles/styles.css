@@ -97,11 +97,9 @@ footer {
 }
 
 .homeText {
-  padding: 60px 60px;
+  padding: 60px 80px;
   margin: 0px;
   text-align: center;
-  width: 700px;
-  height: 500px;
 }
 
 .hero {
@@ -302,6 +300,10 @@ footer {
 .card-img-top img {
   padding: 10px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 @media (max-width: 900px) {
