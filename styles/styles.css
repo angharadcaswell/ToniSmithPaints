@@ -70,12 +70,14 @@ header {
 nav {
   color: black;
   padding: 20px 0;
+  justify-content: center;
 }
 
 nav li {
   display: inline;
   line-height: 40px;
   margin-left: 10px !important;
+  margin-right: 10px !important;
   padding: 0;
 }
 
@@ -102,6 +104,37 @@ footer {
   padding: 40px;
 }
 
+.smallTitleAbout,
+.smallTitleCom,
+.smallTitleShop,
+.smallTitleCol {
+  color: white;
+  margin: auto;
+  padding: 100px 20px;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  display: block;
+  width: 300px;
+  height: 300px;
+  font-size: 40px !important;
+  font-weight: bold;
+
+  text-align: center;
+}
+.smallTitleCom {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/641/original/Rush_to_the_Raft__Greystones_Mens_2.png?1617723126");
+}
+
+.smallTitleCol {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/738/original/Making_Memories_Godrevy_Cornwall_2.png?1617882613");
+}
+.smallTitleShop {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/643/original/When_we_were_young_Greystones_Mens_in_2006_1.png?1617723423");
+}
+
+.smallTitleAbout {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/636/original/About_me_link_with_image.png?1617716027");
+}
 .homeText {
   padding: 60px 80px;
   margin: 0px;
@@ -361,18 +394,18 @@ textarea {
     text-align: center;
   }
   h3 {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding: 0 10px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
   }
 
   p {
-    font-size: 10px;
+    font-size: 10px !important;
     text-align: center;
   }
 
@@ -381,9 +414,9 @@ textarea {
   }
 
   .hero {
-    height: 556px;
+    height: 200px;
     background: none;
-    background-color: var(--main-color);
+    background-color: var(--third-color);
     padding: 20px 5px;
     align-items: center;
   }
@@ -396,16 +429,27 @@ textarea {
     padding: 10px 5px;
     font-size: 10px;
     line-height: 15px;
+    margin: auto;
   }
   .blackButton {
     padding: 10px 5px;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 15px;
+    margin: 20px;
+  }
+  .homeText {
+    padding: 10px 30px;
+    margin: 0px;
+    text-align: center;
   }
 
   nav li {
     font-size: 10px;
     text-align: center;
-    margin: 2px !important;
+  }
+
+  nav {
+    margin: auto;
+    padding: 0;
   }
 }
