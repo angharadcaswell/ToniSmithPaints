@@ -172,13 +172,39 @@ footer {
   font-family: var(--main-font);
   font-size: 20px;
   line-height: 27px;
-  margin: 100px 0;
+  margin: 70px 0;
   border: none;
 }
 
 .greyButton:hover {
   background-color: black !important;
   color: #fff;
+}
+
+div.contact {
+  background-color: var(--third-color);
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 450px;
+  max-height: 550px;
+}
+
+input[type="text"],
+input[type="email"] {
+  display: block;
+  text-align: left;
+  margin: 10px;
+  border: none;
+  font-family: var(--main-font);
+}
+
+textarea {
+  text-align: left;
+  margin: 10px;
+  border: none;
+  max-width: 90%;
+  font-family: var(--main-font);
 }
 
 .aboutText p,
@@ -188,7 +214,8 @@ footer {
 
 .aboutText,
 .contactText {
-  padding: 20px 90px;
+  padding: 30px 50px;
+  margin: auto;
 }
 
 .social-links a {
@@ -267,7 +294,7 @@ footer {
   font-size: 20px;
   line-height: 27px;
   border: none;
-  margin: 50px;
+  margin: 20px;
 }
 
 .blackButton:hover {
@@ -333,6 +360,11 @@ footer {
     font-size: 30px !important;
     text-align: center;
   }
+  h3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 10px;
+  }
 
   h2 {
     font-size: 20px;
@@ -363,6 +395,11 @@ footer {
   .greyButton {
     padding: 10px 5px;
     font-size: 10px;
+    line-height: 15px;
+  }
+  .blackButton {
+    padding: 10px 5px;
+    font-size: 15px;
     line-height: 15px;
   }
 
