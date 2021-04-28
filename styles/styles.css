@@ -172,7 +172,7 @@ footer {
   font-family: var(--main-font);
   font-size: 20px;
   line-height: 27px;
-  margin: 0;
+  margin: 100px 0;
   border: none;
 }
 
