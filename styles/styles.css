@@ -259,6 +259,22 @@ footer {
   padding: 50px 0px 0px 0px;
 }
 
+.blackButton {
+  color: white;
+  background-color: black !important;
+  padding: 20px 15px;
+  font-family: var(--main-font);
+  font-size: 20px;
+  line-height: 27px;
+  border: none;
+  margin: 50px;
+}
+
+.blackButton:hover {
+  background-color: var(--background-color) !important;
+  color: black;
+}
+
 .aboutme {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/744/original/wave_%287%29_%281%29_2.png?1617886129");
   background-repeat: no-repeat !important;
