@@ -465,6 +465,11 @@ textarea {
   .hero-text {
     background-color: transparent;
   }
+  .comText p {
+    text-align: center;
+    padding: 10px 10px;
+    text-align: center;
+  }
 
   .greyButton {
     padding: 10px 5px;
