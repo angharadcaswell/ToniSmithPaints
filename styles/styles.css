@@ -536,7 +536,6 @@ textarea {
   .comText p {
     text-align: center;
     padding: 10px 10px;
-    text-align: center;
   }
 
   .greyButton {
@@ -576,5 +575,11 @@ textarea {
     height: 100px;
     width: 100px;
     padding: 0;
+  }
+  em,
+  strong {
+    font-size: 10px !important;
+    text-align: center !important;
+    display: block;
   }
 }
