@@ -143,7 +143,7 @@ h4 {
 }
 
 .contact-box {
-  border-style: dashed;
+  border: 3px dashed black;
   border-radius: 5px;
   background-color: var(--third-color);
   padding: 30px 200px;
@@ -163,7 +163,7 @@ h4 {
 
 .toniImg img {
   border-radius: 50%;
-  border-style: dashed;
+  border: 3px dashed black;
   height: 200px;
   width: 200px;
   padding: 0;
@@ -237,7 +237,7 @@ h4 {
 }
 
 .hero {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/008/122/original/Stormy_day_at_greystones_cove-min.jpg?1619688694");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/008/571/original/Stormy_day_at_greystones_cove-min_%281%29.jpg?1620214449");
   height: 697px;
   text-align: center;
   background-repeat: no-repeat !important;
@@ -322,7 +322,7 @@ div.contactForm {
   max-width: 450px;
   max-height: 550px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  border-style: dashed;
+  border: 3px dashed black;
 }
 
 input[type="text"],
@@ -520,6 +520,7 @@ textarea {
   p {
     font-size: 10px !important;
     text-align: center;
+    padding: 5px !important;
   }
 
   li {
@@ -527,7 +528,7 @@ textarea {
   }
 
   .hero {
-    height: 200px;
+    height: 300px;
     background: none;
     background-color: var(--third-color);
     padding: 20px 5px;
@@ -554,7 +555,7 @@ textarea {
     line-height: 15px;
     margin: auto;
   }
-  .homeText {
+  .fdashText {
     padding: 10px 30px;
     margin: 0px;
     text-align: center;
@@ -572,12 +573,13 @@ textarea {
   nav {
     margin: auto;
     padding: 0;
+    text-align: center;
   }
   .toniImg img {
     border-radius: 50%;
     border-style: dashed;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     padding: 0;
   }
   em,
