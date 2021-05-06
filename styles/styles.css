@@ -243,15 +243,16 @@ h4 {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
-  padding: 230px 100px;
+  /* padding: 230px 100px; */
   margin: 30px;
 }
 
 .hero-text {
-  padding: 10px 10px;
+  padding: 250px 100px;
   text-align: center;
   background-color: rgba(229, 243, 230, 0.5);
   font-size: 40px;
+  height: 697px;
 }
 
 .hero-text h1 {
