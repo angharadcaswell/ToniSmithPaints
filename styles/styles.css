@@ -52,6 +52,7 @@ img {
 p {
   font-size: 20px;
   font-family: var(--main-font);
+  text-align: left;
 }
 em,
 strong {
@@ -68,6 +69,7 @@ ul {
   margin: 0 !important;
   padding: 0 !important;
   font-size: 20px;
+  text-align: left;
 }
 
 path {
@@ -183,15 +185,12 @@ h4 {
 .commProcess p {
   font-size: 15px;
   margin: 10px 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .commProcess i {
   display: block;
-  text-align: center;
-}
-.commProcess p {
-  text-align: center;
+  text-align: left;
 }
 
 .smallTitleAbout,
@@ -232,7 +231,7 @@ h4 {
 }
 
 .comText p {
-  text-align: center;
+  text-align: left;
   padding: 10px 150px;
 }
 
@@ -256,11 +255,11 @@ h4 {
 }
 
 .hero-text h1 {
-  font-size: 60px;
+  font-size: 90px;
 }
 
 .hero-text h2 {
-  padding: 10px;
+  padding: 30px;
 }
 
 .logo {
@@ -476,7 +475,7 @@ textarea {
   background-position: center !important;
 }
 .example {
-  padding-top: 60px;
+  padding-top: 10px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/008/149/original/wave_%287%29_%281%29_1.png?1619710747");
   background-repeat: no-repeat !important;
   background-size: cover !important;
