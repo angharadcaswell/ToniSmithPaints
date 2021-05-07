@@ -122,6 +122,10 @@ h4 {
   font-size: 40px;
 }
 
+.homeButton {
+  text-align: center;
+}
+
 .card-blue {
   background-color: var(--fourth-color);
 }
@@ -500,9 +504,10 @@ textarea {
   h1 {
     font-size: 30px !important;
     text-align: center;
+    padding: 10px 10px !important;
   }
   h3 {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     padding: 0 10px;
   }
@@ -521,6 +526,20 @@ textarea {
   li {
     font-size: 10px;
     text-align: center;
+  }
+
+  img {
+    padding: 10px 10px;
+    width: 50%;
+    height: auto;
+  }
+
+  .title-background {
+    background: none;
+    background-color: var(--third-color);
+    padding: 20px 5px;
+    align-items: center;
+    height: auto;
   }
 
   .hero {
@@ -547,7 +566,7 @@ textarea {
     padding: 10px 5px;
     font-size: 10px;
     line-height: 15px;
-    margin: 20px auto;
+    margin: 10px auto;
   }
   .blackButton {
     padding: 10px 5px;
@@ -567,13 +586,13 @@ textarea {
 
   nav li {
     font-size: 10px;
-    text-align: center;
+    text-align: center !important;
   }
 
   nav {
     margin: auto;
     padding: 0;
-    text-align: center;
+    text-align: center !important;
   }
   .toniImg img {
     border-radius: 50%;
