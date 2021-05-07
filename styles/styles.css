@@ -224,11 +224,6 @@ h4 {
 .smallTitleAbout {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/636/original/About_me_link_with_image.png?1617716027");
 }
-.homeText {
-  padding: 60px 80px;
-  margin: 0px;
-  text-align: center;
-}
 
 .comText p {
   text-align: left;
@@ -525,6 +520,7 @@ textarea {
 
   li {
     font-size: 10px;
+    text-align: center;
   }
 
   .hero {
@@ -537,7 +533,11 @@ textarea {
 
   .hero-text {
     background-color: transparent;
+    padding: 10px 10px;
+    height: auto;
+    text-align: center;
   }
+
   .comText p {
     text-align: center;
     padding: 10px 10px;
@@ -547,13 +547,13 @@ textarea {
     padding: 10px 5px;
     font-size: 10px;
     line-height: 15px;
-    margin: auto;
+    margin: 20px auto;
   }
   .blackButton {
     padding: 10px 5px;
     font-size: 10px;
     line-height: 15px;
-    margin: auto;
+    margin: 10px auto;
   }
   .fdashText {
     padding: 10px 30px;
